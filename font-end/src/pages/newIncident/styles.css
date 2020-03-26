@@ -1,4 +1,4 @@
-.register-container{
+.new-incident-container{
     width: 100%;
     max-width: 1120px;
     height: 100vh;
@@ -41,10 +41,6 @@
     max-width: 450px;
 }
 
-.input-group{
-    display: flex;
-}
-
-.input-group input + input{
-    margin-left: 8px;
+.content form input, textarea{
+    margin-top: 8px;
 }
